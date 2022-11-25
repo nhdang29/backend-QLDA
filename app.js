@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-	res.json({ message: "Welcome to learning manager." });
+	res.json({ message: "Welcome to quan ly mon hoc." });
 });
 
 app.use("/api/deadlines", deadlinesRouter);
